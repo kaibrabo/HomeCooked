@@ -1,0 +1,43 @@
+.banner {
+    background: url("https://www.myvrhost.com/wp-content/uploads/2016/11/richg.png")
+        center center;
+    height: 50vh;
+    position: relative;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff5a60 !important;
+}
+
+.banner__info {
+    background-color: white;
+    color: black;
+    padding: 20vh 50px 40px;
+    width: 300px;
+}
+
+.banner__info > button {
+    background-color: #ff5a60;
+    color: white;
+    text-transform: inherit;
+    margin: 20px 0 0;
+    font-weight: 600;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: #ff5a60;
+}
+
+.banner__info > h5 {
+    margin: 10px 0 0;
+}
